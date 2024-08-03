@@ -1,0 +1,94 @@
+
+.outerbody{
+    height:400px;
+    width:300px;
+    border: 2px solid black;
+    border-radius:5px;
+    background-color: rgb(77, 77, 77);
+    box-shadow: 15px 15px 15px rgb(44, 44, 44);
+    position: relative;
+    left: 40%;
+}
+#casio{
+    font-size:15px;
+    display: flex;
+    justify-content:end;
+    padding-right: 10px;
+    
+
+
+}
+#display{
+    height:40px;
+    width:265px;
+    border: 2px solid black;
+    margin: 0px 12px;
+    background-color:lightgreen;
+    font-size:medium ;
+    font-weight:bolder;
+   
+    
+}
+.buttonArea{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin:20px;
+  
+}
+
+.button{
+    height:50px;
+    width:55px;
+    margin:3px;
+    font-weight: bolder;
+    border-radius: 2px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    
+}
+.buttonArea :nth-child(17){
+    width:120px;
+    height: 50px;
+  position: relative;
+  left: 60px;
+  background-color:#0080ff68;
+  color: black;
+  font-size:20px;
+
+}
+
+.buttonArea :nth-child(1){
+  position: relative;
+  background-color:#00740069;
+  color: black;
+  font-size:20px;
+
+}
+.buttonArea :nth-child(5){
+    position: relative;
+    background-color:#ff4400af;
+    color: black;
+    font-size:20px;
+  
+  }
+  .buttonArea :nth-child(9){
+    position: relative;
+    background-color:#ff4400af;
+    color: black;
+    font-size:30px;
+  
+  }.buttonArea :nth-child(13){
+    position: relative;
+    background-color:#ff4400af;
+    color: black;
+    font-size:30px;
+  
+  }
+  .buttonArea :nth-child(14){
+    position: relative;
+    background-color:#ff4400af;
+    color: black;
+    font-size:20px;
+  
+  }
